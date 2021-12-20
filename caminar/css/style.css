@@ -1,0 +1,165 @@
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+body, html{
+	font-family: 'Muli', sans-serif;
+	height: 100%;
+	background-image: url('../images/bg.jpg');	
+	background-attachment: fixed;
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: bottom;
+}
+
+.titulo h1{
+	padding-top: 60px;
+	font-size: 60px;
+	color: white;
+	text-align: center;
+}
+
+.titulo h4{
+	color: #CFCECD ;
+	text-align: center;
+	font-weight: normal;
+	margin-bottom: 70px;
+}
+
+.bg2{
+	margin-left: 5%;
+	margin-right: 5%;
+}
+
+.bg2 img{
+	width:100%;
+}
+
+.bg3{
+	height: 180px;
+	background-color: white;
+	margin-left: 5%;
+	margin-right: 5%;
+}
+
+.bg3 h2{
+	padding-top: 50px;
+	text-align: center;
+}
+
+.bg3 p{
+	color: gray;
+	text-align: center;
+}
+
+.bg3 h5{
+	color: gray;
+	text-align: center;
+	font-weight: normal;
+	margin-top: 10px;
+}
+
+.bg4{
+	color: #BBB9B7 ;
+	font-size: 17px;
+	padding: 50px;
+	text-align: left;	
+	background-color: #F6F3F0 ;
+	margin-left: 5%;
+	margin-right: 5%;
+}
+
+.bg5{
+	padding-top: 50px;
+	background-color: #202129;	
+	margin-left: 5%;
+	margin-right: 5%;
+	padding-bottom: 54px;
+}
+
+.bg6 h2{
+	color: white;
+	padding-top: 50px;
+	text-align: center;
+}
+
+.bg6 p{
+	color: gray;
+	text-align: center;
+}
+
+.bg6 h5{
+	color: gray;
+	text-align: center;
+	font-weight: normal;
+	margin-top: 10px;
+	margin-bottom: 30px;
+}
+
+.bg6{
+	background-color: #0D0E11;
+	margin-left: 5%;
+	margin-right: 5%;
+}
+
+.imagesbg6{
+	display: flex;
+}
+
+.imagesbg6 img{	
+	width: 50%;
+}
+
+.bg7{	
+	display: flex;
+	background-color: white;
+	margin-left: 5%;
+	margin-right: 5%;	
+}
+
+.teste{
+	padding-top: 150px;
+	padding-bottom: 150px;
+	padding-right: 30px;
+	padding-left: 30px;
+}
+
+.bg8{	
+	color: white;
+	display: flex;
+	background-color: #0D0E11;
+	margin-left: 5%;
+	margin-right: 5%;	
+}
+
+.rodape{
+	font-size: 15px;
+	text-align: center;
+	padding-top: 60px;
+	color: #C1C1C5 ;
+	padding-bottom: 60px;
+}
+
+@media screen and (max-width: 800px){
+	.imagesbg6{
+		flex-direction: column;
+	}
+
+	.imagesbg6 img{	
+		width: 100%;
+	}
+
+	.bg7{
+		flex-direction: column;
+	}
+
+	.bg7 img, .bg8 img{
+		width: 100%;
+	}
+
+	.bg8{
+		flex-direction: column-reverse;
+	}
+}
