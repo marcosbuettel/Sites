@@ -1,0 +1,150 @@
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+body, html{
+	font-family: serif;
+	height: 100%;
+}
+
+a:hover{
+	text-decoration: none;
+}
+
+.topo{
+	height: 600px;
+	background-image: url('../images/banner.jpg');
+	background-size: cover;
+}
+
+.p1{
+	padding-top: 30px;
+	padding-left: 25px;	
+}
+
+.titulo{	
+	text-align: center;
+	color: white;
+}
+
+.titulo h1{
+	font-size:80px;
+	margin-top: 80px;
+}
+
+.botao{
+	margin-top: 30px;
+	text-align: center;
+}
+
+.bg1{
+	background-color: #EBEBF2;	
+	padding-bottom: 40px;
+}
+
+.centrobg1{	
+	margin-right: 5%;
+	margin-left: 5%;
+}
+
+.capabg1 img{
+	width: 100%;
+	margin-top: 100px;
+}
+
+.textobg1{
+	padding-top: 100px;
+	background-color: white;
+	text-align:center;
+	width: 100%;
+}
+
+.justificado{
+	color: gray;
+	padding: 20px;
+	text-align: justify;
+}
+
+.bg2{	
+	text-align: center;
+	background-image: linear-gradient(rgba(0,0,0,1), rgba(0,0,0,0.5)), url('../images/bg.jpg');
+	background-attachment: fixed;
+	background-size: cover;
+}
+
+.botaobg2{
+	margin-top: 10px;
+	border: 3px solid gray;
+	color: white;
+	border-radius:4px;
+	padding: 8px 15px;
+	background-color: rgba(0,0,0,0);
+}
+
+.blocobg2{
+	padding: 100px 40px;
+}
+
+.bg3{
+	background-color: #EBEBF2;
+	padding-top: 40px;
+	padding-bottom: 40px;
+}
+
+.imgbg{	
+	margin-left: 5%;
+	margin-right: 5%;
+}
+
+.img1bg3 img{
+	width: 100%;
+}
+
+.img2bg3 img{
+	width: 100%;
+}
+
+.textobg3{
+	text-align: center;
+	background-color: white;
+	padding: 40px;
+}
+
+.textobg3 p{
+	text-align: justify;
+}
+
+.bg4{
+	text-align: center;
+	background-image: linear-gradient(rgba(0,0,0,1), rgba(0,0,0,0.5)), url('../images/bg.jpg');
+	background-attachment: fixed;
+	background-size: cover;
+}
+
+.blocobg4{
+	padding: 100px 40px;
+}
+
+.bg5{
+	padding-top: 40px;
+	padding-bottom: 40px;
+	background-color: #EBEBF2;
+}
+
+.formbg5{
+	background-color: white;
+	margin-left: 5%;
+	margin-right: 5%;
+}
+
+.rodape a{
+	text-decoration:underline ;
+}
+
+@media screen and (max-width: 654px){
+	.titulo h1{
+		font-size: 65px;
+	}
+}
